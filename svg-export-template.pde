@@ -1,13 +1,14 @@
 // Processing SVG library, required for exporting SVGs
 import processing.svg.*;
 
-// When this is true, the code will output an SVG
-// and then flip it back to false (see below).
+// When the record variable has a value of true,
+// the code will output an SVG and then flip it
+// back to false (see below).
 boolean record = false;
 
 // Setup method - this is where you do all of your
-// setup including setting the canvas size (required)
-// Gets run once per execution
+// setup including setting the canvas size (required).
+// Gets run once per execution.
 void setup() {
   // Set size to dimensions of paper in pixels
   // I'm using P3D here because it tends to get
